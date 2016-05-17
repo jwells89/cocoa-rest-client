@@ -91,7 +91,7 @@
                                                                     relatedBy:NSLayoutRelationEqual
                                                                        toItem:tabSelector
                                                                     attribute:NSLayoutAttributeBottom
-                                                                   multiplier:1 constant:10];
+                                                                   multiplier:1 constant:5];
         NSLayoutConstraint *bottomSpace = [NSLayoutConstraint constraintWithItem:item
                                                                        attribute:NSLayoutAttributeBottom
                                                                        relatedBy:NSLayoutRelationEqual
@@ -179,7 +179,7 @@
 
 - (void)setupConstraints {
     NSArray *constraints =
-        [NSLayoutConstraint constraintsWithVisualFormat:@"|-0-[tabSelector]->=10-[controlTitle(<=120)]-0-|"
+        [NSLayoutConstraint constraintsWithVisualFormat:@"|-10-[tabSelector]->=10-[controlTitle(<=120)]-10-|"
                                                 options:NSLayoutFormatAlignAllCenterY
                                                 metrics:nil
                                                   views:@{@"tabSelector": tabSelector, @"controlTitle": controlTitle}
@@ -191,7 +191,7 @@
                                                attribute:NSLayoutAttributeTop
                                                relatedBy:NSLayoutRelationEqual
                                                   toItem:self
-                                               attribute:NSLayoutAttributeTop multiplier:1 constant:0];
+                                               attribute:NSLayoutAttributeTop multiplier:1 constant:10];
     //[NSLayoutConstraint activateConstraints:constraints]; // NOT AVAILABLE IN 10.9
     [self addConstraints:constraints];
     [self addConstraint:c2];
@@ -204,8 +204,8 @@
     [[NSColor colorWithRed:0 green:0 blue:0 alpha:0.1]set];
 
     NSBezierPath * dividerLine = [[NSBezierPath alloc]init];
-    [dividerLine moveToPoint:NSMakePoint(0, self.bounds.size.height -27)];
-    [dividerLine lineToPoint:NSMakePoint(self.bounds.size.width, self.bounds.size.height -27)];
+    [dividerLine moveToPoint:NSMakePoint(0, self.bounds.size.height -37)];
+    [dividerLine lineToPoint:NSMakePoint(self.bounds.size.width, self.bounds.size.height -37)];
     [dividerLine setLineWidth:0.5];
     [dividerLine stroke];
     [[NSGraphicsContext currentContext] restoreGraphicsState];

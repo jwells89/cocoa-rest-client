@@ -175,6 +175,8 @@ static CRCContentType requestContentType;
     [window setFrameUsingName:@"CRCMainWindow"];
     [[window windowController] setShouldCascadeWindows:NO];
     [window setFrameAutosaveName:@"CRCMainWindow"];
+    window.titleVisibility = NSWindowTitleHidden;
+    
     
     self.jsonWriter = [[SBJson4Writer alloc] init];
     self.jsonWriter.humanReadable = YES;

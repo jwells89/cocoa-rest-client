@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1E2D1B7A28CCAD432519863A54B954C933696C3B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "378B54B5205DE31B3B2EBDA14687C757C53E503B" : 0,
+    "1E2D1B7A28CCAD432519863A54B954C933696C3B" : 0,
+    "6AA9B563339F4175433F6583E018B0E6CF800437" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0771223B-C4FF-43BD-9172-5F03C6854A68",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "378B54B5205DE31B3B2EBDA14687C757C53E503B" : "ACEView",
+    "1E2D1B7A28CCAD432519863A54B954C933696C3B" : "cocoa-rest-client",
+    "6AA9B563339F4175433F6583E018B0E6CF800437" : "ACEView\/ACEView\/Dependencies\/ace"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CocoaRestClient",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CocoaRestClient.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/github.com\/mmattozzi\/cocoa-rest-client.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1E2D1B7A28CCAD432519863A54B954C933696C3B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mmattozzi\/ACEView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "378B54B5205DE31B3B2EBDA14687C757C53E503B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ajaxorg\/ace-builds.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6AA9B563339F4175433F6583E018B0E6CF800437"
+    }
+  ]
+}
